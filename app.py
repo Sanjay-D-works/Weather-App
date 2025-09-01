@@ -7,4 +7,5 @@ app.config['DEBUG'] = True
 
 @app.route('/')
 def index():
+    url = 
     return render_template('weather.html')
